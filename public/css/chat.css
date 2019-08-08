@@ -1,0 +1,39 @@
+.chat-list {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    height: 600px !important;
+}
+
+textarea {
+    width: 100%;
+}
+
+button.open-panel{
+    margin-top: 80px;
+}
+
+/* For medium and large devices */
+@media only screen and (min-width: 768px) {
+    .dropright .dropdown-menu {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .dropdown-menu {
+        padding: 0;
+        display: block;
+        border: none;
+        border-radius: 0;
+        float: none;
+        position: unset !important;
+        transform: none !important;
+    }
+} 
+
+.chat-right-aside {
+    width: 100% !important;
+}
+
+form#formEnviar {
+    padding: 0 100px;
+}
